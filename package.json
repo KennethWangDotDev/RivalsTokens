@@ -1,0 +1,46 @@
+{
+  "name": "campus-security",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "",
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "clapp": "^1.1.1",
+    "discord.js": "^11.0.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^2.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "/campus-security"
+}
