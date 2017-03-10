@@ -2,7 +2,7 @@
 
 A currency and user engagement Discord bot.
 
-# Basic Commands
+## Basic Commands
 
 ```
 -  !tokens - View your existing tokens.
@@ -12,11 +12,13 @@ A currency and user engagement Discord bot.
 -  !sell <stock name> <number>- Sell your shares for a stock.
 ```
 
-# TODO
+## TODO
 
+```
 [] Twitch Integration
 [] Hero vs Villain Expansion
 [] Stop-Talking Announcement
 [] Betting Between 2 Options
 [] Automating Challonge and Point System
 [] Stock System Formula
+```
