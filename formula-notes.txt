@@ -1,0 +1,51 @@
+Stock System Formula
+====================
+
+Stock market will close before right before the start of every tournament, and open once the tournament ends. Stock values will change based off the results of each tournament. An internal point system is used:
+
+For each element corresponding to the stock in 5th to 8th place: +1 Point for the stock
+For the element corresponding to the stock in 4th place: +3 Point for the stock
+For the element corresponding to the stock in 3rd place: +5 Point for the stock
+For the element corresponding to the stock in 2nd place: +8 Point for the stock
+For the element corresponding to the stock in 1st place: +14 Point for the stock
+
+In a tie between points, the tie winner goes to element who placed higher.
+
+Regional:
+Stock with most point: +15 Value for the Stock
+Stock with second most points: +5 Value for the Stock
+Remaining Stocks: -10 Value for the Stock
+
+National:
+Stock with most point: +50 Value for the Stock
+Stock with second most points: +15 Value for the Stock
+Remaining Stocks: -30 Value for the Stock
+
+
+
+
+================================================
+
+baseValue + (multiplier * entrants * easing)
+
+baseValue of 100 for regionals
+baseValue of 200 for nationals
+
+multiplier = 20 for regionals
+multiplier = 25 for nationals
+
+200 + (20 * 25 * 1)
+
+
+Tournament Rewards Formula
+=============================
+
+baseValue + (multiplier * entrants * easing)
+
+baseValue of 100 for regionals
+multiplier of 20 for regionals
+
+baseValue of 200 for nationals
+multiplier of 25 for nationals
+
+Easing formula is CircleIn: -(Math.sqrt(1 - (x*x)) - 1) where x is ( [entrants + 1] - [your placement] ) / entrants. This formula is used to ensure that an emphasis is placed on higher placing for payouts.
