@@ -19,6 +19,5 @@ A currency and user engagement Discord bot.
 [] Hero vs Villain Expansion
 [] Stop-Talking Announcement
 [] Betting Between 2 Options
-[] Automating Challonge and Point System
-[] Stock System Formula
+[] Trivia Bot
 ```
