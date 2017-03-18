@@ -16,6 +16,7 @@
     "discord.js": "^11.0.0",
     "fs": "0.0.1-security",
     "jsonfile": "^2.4.0",
+    "node-fetch": "^1.6.3",
     "path": "^0.12.7"
   },
   "devDependencies": {
