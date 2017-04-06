@@ -1,19 +1,9 @@
 {
-  "name": "campus-security",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "",
-  "author": "",
-  "files": [
-    "lib"
-  ],
-  "main": "index.js",
-  "keywords": [
-    ""
-  ],
+  "name": "IronWolf",
+  "version": "2.0.1",
+  "main": "./lib/index.js",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "clapp": "^1.1.1",
     "discord.js": "^11.0.0",
     "fs": "0.0.1-security",
     "jsonfile": "^2.4.0",
@@ -24,16 +14,7 @@
   },
   "scripts": {
     "bot": "node ./lib/index.js",
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": "/campus-security",
-  "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
-  }
 }
