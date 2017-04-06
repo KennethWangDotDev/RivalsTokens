@@ -16,5 +16,5 @@
     "bot": "node ./lib/index.js",
   },
   "license": "MIT",
-  "repository": "/campus-security",
+  "repository": "/RivalsTokens",
 }
