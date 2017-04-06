@@ -13,8 +13,8 @@
     "sqlite3": "^3.1.8"
   },
   "scripts": {
-    "bot": "node ./lib/index.js",
+    "bot": "node ./lib/index.js"
   },
   "license": "MIT",
-  "repository": "/RivalsTokens",
+  "repository": "/RivalsTokens"
 }
