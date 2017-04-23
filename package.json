@@ -4,6 +4,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "dedent-js": "^1.0.1",
     "discord.js": "^11.0.0",
     "fs": "0.0.1-security",
     "jsonfile": "^2.4.0",
